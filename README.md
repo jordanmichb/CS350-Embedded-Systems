@@ -13,12 +13,12 @@ The code checks the status of the buttons every 200 ms. If a button has been pre
 
 TI SimpleLink CC3220S LaunchPad Development Kit
 <br>
-&emsp;•	The LaunchPad was used to test code functionality and create the prototype. It comes with all the necessary functionality: I2C, UART, GPIO, &emsp;temperature sensor, LED lights, and buttons.
+&emsp;•	The LaunchPad was used to test code functionality and create the prototype. It comes with all the necessary functionality: I2C, UART, GPIO, temperature sensor, LED lights, and buttons.
 <br>
 <br>
 Code Composer Studio
 <br>
-&emsp;•	Code Composer Studio was used to write the code and was used beacuse it is an IDE made specifically for developing applications for Texas &emsp;Instruments embedded processors.
+&emsp;•	Code Composer Studio was used to write the code and was used beacuse it is an IDE made specifically for developing applications for Texas Instruments embedded processors.
 
 <br>
 <br>
@@ -33,7 +33,7 @@ Code Composer Studio
 <br>
 •	Open a serial console to communicate with the board.
 <br>
-&emsp;- On Windows, determine which com port the board is assigned to by opening Windows Device Manager > Ports(COM & LPT). The USB connection to the TI &emsp;board is called XDS110, and for this project look for XDS110 Class Application/USer UART. Take note of the COMx port. 
+&emsp;- On Windows, determine which com port the board is assigned to by opening Windows Device Manager > Ports(COM & LPT). The USB connection to the TI board is called XDS110, and for this project look for XDS110 Class Application/USer UART. Take note of the COMx port. 
 <br>
 &emsp;- On Mac, determine which com port the board is assigned to by opening Apple menu > About this Mac > System Report > Hardware > USB. In the Device Tree look for the XDS110 entry and take note of the serial number listed.
 <br>
