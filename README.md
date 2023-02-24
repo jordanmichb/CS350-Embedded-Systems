@@ -30,7 +30,9 @@ Code Composer Studio
 •	Plug in the LaunchPad via USB.
 <br>
 •	Open a serial console to communicate with the board.
+<br>
 &emsp;- On Windows, determine which com port the board is assigned to by opening Windows Device Manager > Ports(COM & LPT). The USB connection to the TI board is called XDS110, and for this project look for XDS110 Class Application/USer UART. Take note of the COMx port. 
+<br>
 &emsp;- On Mac, determine which com port the board is assigned to by opening Apple menu > About this Mac > System Report > Hardware > USB. In the Device Tree look for the XDS110 entry and take note of the serial number listed.
 &emsp;- In Code Composer Studio, select "View" then "Terminal" to open the Terminal window. Select the blue monitor icon (open a new terminal) to open the Launch Terminal window. Choose "Serial Terminal" and select the COMx port (Windows) or serial number (Mac) from earlier.
 <br>
