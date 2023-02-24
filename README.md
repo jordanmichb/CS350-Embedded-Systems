@@ -27,14 +27,18 @@ Code Composer Studio
 
 •	Import the project into code Composer Studio
 <br>
+<br>
 •	Plug in the LaunchPad via USB.
+<br>
 <br>
 •	Open a serial console to communicate with the board.
 <br>
 &emsp;- On Windows, determine which com port the board is assigned to by opening Windows Device Manager > Ports(COM & LPT). The USB connection to the TI board is called XDS110, and for this project look for XDS110 Class Application/USer UART. Take note of the COMx port. 
 <br>
 &emsp;- On Mac, determine which com port the board is assigned to by opening Apple menu > About this Mac > System Report > Hardware > USB. In the Device Tree look for the XDS110 entry and take note of the serial number listed.
+<br>
 &emsp;- In Code Composer Studio, select "View" then "Terminal" to open the Terminal window. Select the blue monitor icon (open a new terminal) to open the Launch Terminal window. Choose "Serial Terminal" and select the COMx port (Windows) or serial number (Mac) from earlier.
+<br>
 <br>
 •	Build the code, select debug, and run the code. Be sure to have the terminal open to view the UART reports. The set point can be changed with the left and right side buttons (decrease or increase, respectively), and ambient temperature readings can be manipulated by placing a finger over the temperature sensor, a small silver square at the bottom left side of the board next to the Wi-Fi icon.
 
